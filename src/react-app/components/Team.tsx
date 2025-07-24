@@ -13,7 +13,6 @@ export default function Team() {
         "Especialista em consultivo empresarial",
         "Experiência em diversos segmentos industriais"
       ],
-      image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
       image: "/images/Captura de tela 2025-07-24 111413.png"
     },
     {
