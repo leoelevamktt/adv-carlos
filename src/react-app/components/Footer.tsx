@@ -15,15 +15,7 @@ export default function Footer() {
     { name: "Serviços", href: "#services" },
     { name: "Equipe", href: "#team" },
     { name: "Contato", href: "#contact" },
-    { name: "Blog", href: "#" },
-    { name: "Carreiras", href: "#" }
-  ];
-
-  const legalLinks = [
-    { name: "Política de Privacidade", href: "#" },
-    { name: "Termos de Uso", href: "#" },
-    { name: "Código de Ética", href: "#" },
-    { name: "LGPD", href: "#" }
+    { name: "Blog", href: "#" }
   ];
 
   return (
@@ -119,38 +111,18 @@ export default function Footer() {
               </div>
             </div>
 
-            {/* Emergency Contact */}
-            <div className="bg-blue-500/10 border border-blue-500/20 rounded-lg p-4 mt-6">
-              <h5 className="text-blue-400 font-semibold text-sm mb-2">Plantão de Dúvidas</h5>
-              <p className="text-gray-300 text-sm">(00) 9 0000-0000</p>
-              <p className="text-gray-400 text-xs">Para consultas jurídicas</p>
-            </div>
           </div>
         </div>
 
         {/* Bottom Bar */}
         <div className="border-t border-gray-800 py-8">
-          <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
-            <div className="text-center md:text-left">
+          <div className="text-center">
               <p className="text-gray-400 text-sm">
                 © 2024 CFL Centro de Soluções Empresariais. Todos os direitos reservados.
               </p>
               <p className="text-gray-500 text-xs mt-1">
                 CNPJ: 00.000.000/0001-00
               </p>
-            </div>
-            
-            <div className="flex flex-wrap justify-center gap-6">
-              {legalLinks.map((link, index) => (
-                <a
-                  key={index}
-                  href={link.href}
-                  className="text-gray-400 hover:text-blue-400 transition-colors text-xs"
-                >
-                  {link.name}
-                </a>
-              ))}
-            </div>
           </div>
         </div>
 

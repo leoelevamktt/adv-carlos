@@ -62,7 +62,7 @@ export default function Header() {
                 </a>
               ))}
               <button className="bg-gradient-to-r from-blue-500 to-blue-600 text-white px-6 py-2 rounded-lg font-semibold hover:from-blue-400 hover:to-blue-500 transition-all duration-200 shadow-lg hover:shadow-xl">
-                Consulta Gratuita
+                Entrar em Contato
               </button>
             </div>
 
@@ -96,7 +96,7 @@ export default function Header() {
                   </a>
                 ))}
                 <button className="bg-gradient-to-r from-blue-500 to-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:from-blue-400 hover:to-blue-500 transition-all duration-200 shadow-lg mt-4">
-                  Consulta Gratuita
+                  Entrar em Contato
                 </button>
               </div>
             </div>

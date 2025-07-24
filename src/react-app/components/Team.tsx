@@ -14,6 +14,7 @@ export default function Team() {
         "Experiência em diversos segmentos industriais"
       ],
       image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
+      image: "/images/Captura de tela 2025-07-24 111413.png"
     },
     {
       name: "Fernando Brasil",
@@ -26,7 +27,7 @@ export default function Team() {
         "Visão estratégica de operacionalização",
         "Especialista em ligação SST e Operação"
       ],
-      image: "https://images.unsplash.com/photo-1594736797933-d0f501ba2fe6?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
+      image: "/images/fer.png"
     }
   ];
 
@@ -103,18 +104,6 @@ export default function Team() {
         </div>
 
         <div className="text-center mt-16">
-          <div className="bg-gradient-to-r from-gray-800 to-gray-900 rounded-2xl p-8 text-white">
-            <h3 className="text-2xl font-bold mb-4">
-              Precisa de Consultoria Especializada?
-            </h3>
-            <p className="text-gray-300 mb-6 max-w-2xl mx-auto">
-              Nossa equipe multidisciplinar está pronta para oferecer soluções 
-              personalizadas em consultoria jurídica e SST para sua empresa.
-            </p>
-            <button className="bg-gradient-to-r from-blue-500 to-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:from-blue-400 hover:to-blue-500 transition-all duration-300">
-              Entre em Contato
-            </button>
-          </div>
         </div>
       </div>
     </section>

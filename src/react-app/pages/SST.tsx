@@ -199,7 +199,7 @@ export default function SSTPage() {
 
             <div className="relative">
               <img
-                src="https://images.unsplash.com/photo-1594736797933-d0f501ba2fe6?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
+                src="/images/fer.png"
                 alt="Fernando Brasil"
                 className="w-full h-96 object-cover rounded-2xl shadow-2xl"
               />
@@ -332,21 +332,6 @@ export default function SSTPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 bg-gradient-to-br from-gray-900 via-gray-800 to-black">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-4xl font-bold text-white mb-6">
-            Precisa de Consultoria em SST?
-          </h2>
-          <p className="text-xl text-gray-300 mb-8 max-w-3xl mx-auto">
-            Nossa equipe especializada está pronta para ajudar sua empresa a implementar 
-            as melhores práticas em Saúde e Segurança do Trabalho.
-          </p>
-          <button className="bg-gradient-to-r from-blue-500 to-blue-600 text-white px-8 py-4 rounded-lg font-semibold text-lg hover:from-blue-400 hover:to-blue-500 transition-all duration-300 shadow-2xl hover:shadow-blue-500/25 flex items-center space-x-2 mx-auto">
-            <span>Agendar Consulta Gratuita</span>
-            <ArrowRight className="w-5 h-5" />
-          </button>
-        </div>
-      </section>
 
       <Footer />
       <WhatsAppFloat />

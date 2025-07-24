@@ -164,7 +164,7 @@ export default function BlogPost() {
         {/* CTA Section */}
         <div className="mt-12 bg-gradient-to-r from-gray-800 to-gray-900 rounded-2xl p-8 text-white text-center">
           <h3 className="text-2xl font-bold mb-4">
-            Precisa de Assessoria Jurídica?
+            Entre em Contato Conosco
           </h3>
           <p className="text-gray-300 mb-6 max-w-2xl mx-auto">
             Nossa equipe especializada está pronta para ajudá-lo com suas questões jurídicas. 
@@ -174,7 +174,7 @@ export default function BlogPost() {
             to="/#contact"
             className="inline-block bg-gradient-to-r from-yellow-500 to-yellow-600 text-gray-900 px-8 py-4 rounded-lg font-semibold hover:from-yellow-400 hover:to-yellow-500 transition-all duration-300 shadow-lg hover:shadow-yellow-500/25"
           >
-            Agendar Consulta Gratuita
+            Entrar em Contato
           </Link>
         </div>
       </article>

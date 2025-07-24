@@ -23,7 +23,7 @@ export default function Hero() {
           <div className="inline-flex items-center bg-blue-500/10 backdrop-blur-sm border border-blue-500/20 rounded-full px-6 py-2 mb-6">
             <Award className="w-4 h-4 text-blue-400 mr-2" />
             <span className="text-blue-400 text-sm font-medium">
-              Soluções empresariais completas
+              Consultoria jurídica e SST
             </span>
           </div>
         </div>
@@ -40,7 +40,7 @@ export default function Hero() {
 
         <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-16">
           <button className="group bg-gradient-to-r from-blue-500 to-blue-600 text-white px-8 py-4 rounded-lg font-semibold text-lg hover:from-blue-400 hover:to-blue-500 transition-all duration-300 shadow-2xl hover:shadow-blue-500/25 flex items-center space-x-2">
-            <span>Consulta Gratuita</span>
+            <span>Entrar em Contato</span>
             <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
           </button>
           
