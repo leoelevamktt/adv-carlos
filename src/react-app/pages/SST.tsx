@@ -1,9 +1,14 @@
+import { useEffect } from 'react';
 import Header from '@/react-app/components/Header';
 import Footer from '@/react-app/components/Footer';
 import WhatsAppFloat from '@/react-app/components/WhatsAppFloat';
 import { HardHat, Shield, FileCheck, Users, Award, Clock, ArrowRight, CheckCircle } from 'lucide-react';
 
 export default function SSTPage() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   const services = [
     {
       icon: HardHat,

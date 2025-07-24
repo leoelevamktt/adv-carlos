@@ -20,12 +20,6 @@ export default function Hero() {
 
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <div className="mb-8">
-          <div className="inline-flex items-center bg-blue-500/10 backdrop-blur-sm border border-blue-500/20 rounded-full px-6 py-2 mb-6">
-            <Award className="w-4 h-4 text-blue-400 mr-2" />
-            <span className="text-blue-400 text-sm font-medium">
-              Consultoria jurídica e SST
-            </span>
-          </div>
         </div>
 
         <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">

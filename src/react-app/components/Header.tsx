@@ -86,6 +86,16 @@ export default function Header() {
             <div className="md:hidden bg-gray-900/98 backdrop-blur-md rounded-lg mt-2 mb-4 p-4 shadow-xl">
               <div className="flex flex-col space-y-4">
                 {navItems.map((item) => (
+                  item.href.startsWith('/') ? (
+                  <Link
+                    key={item.name}
+                    to={item.href}
+                    className="text-white hover:text-blue-400 transition-colors duration-200 font-medium py-2"
+                    onClick={() => setIsMenuOpen(false)}
+                  >
+                    {item.name}
+                  </Link>
+                  ) : (
                   <a
                     key={item.name}
                     href={item.href}
@@ -94,6 +104,7 @@ export default function Header() {
                   >
                     {item.name}
                   </a>
+                  )
                 ))}
                 <button className="bg-gradient-to-r from-blue-500 to-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:from-blue-400 hover:to-blue-500 transition-all duration-200 shadow-lg mt-4">
                   Entrar em Contato

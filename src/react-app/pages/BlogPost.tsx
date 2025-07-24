@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import { useParams, Link } from 'react-router';
 import { ArrowLeft, Calendar, User, Clock, Tag } from 'lucide-react';
 import Header from '@/react-app/components/Header';
@@ -8,6 +9,10 @@ import { useBlogPost } from '@/react-app/hooks/useBlogPosts';
 export default function BlogPost() {
   const { slug } = useParams();
   const { post, loading, error } = useBlogPost(slug || '');
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   if (loading) {
     return (
